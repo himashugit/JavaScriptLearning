@@ -1,0 +1,37 @@
+Recomended books to read
+https://clearlydecoded.com/recommended-books/
+
+cascading style sheet - A stylesheet is a collection of css rules
+Site to check - http://csszengarden.com/
+
+ p {
+     color: blue;
+     font-size : 20px;
+     width: 200px;
+ }
+
+this syntaax means this will apply css formatting everywhere in the paragraph. it has property as color and value as below. This is how we 
+declare.
+
+Element,class & id selector :- 
+p {
+     color: blue;
+}
+here p is element and it means each content inside <p>---</p> is written in blue color text
+
+.blue{
+    color: blue;
+}
+
+here blue is class character. It means whatever content inside <p class="blue">...</p>
+<p>...</p> would've blue text and also <div class="blue"..</div> would've blue character
+
+id= here we define the content with name, a pound sign at the begining, ex...
+#name{
+    color: blue;
+}
+
+<p>...</p>
+<div id="name">...</div>
+
+Combining selector :- 

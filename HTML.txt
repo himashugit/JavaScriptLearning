@@ -1,0 +1,6 @@
+for character to use in html
+
+< = &lt;
+> = &gt;
+& = &amp;
+
