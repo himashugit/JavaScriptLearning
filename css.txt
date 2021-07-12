@@ -14,6 +14,11 @@ this syntaax means this will apply css formatting everywhere in the paragraph. i
 declare.
 
 Element,class & id selector :- 
+p.big {
+    font-size: 20px;
+}
+
+
 p {
      color: blue;
 }
@@ -35,3 +40,62 @@ id= here we define the content with name, a pound sign at the begining, ex...
 <div id="name">...</div>
 
 Combining selector :- 
+
+combning a p element with some class selector ex,
+p.big{
+    font-szie: 2-x;
+}
+here p element will combine with class=big in <p></p>
+
+<p class="big">...</p>
+<div class="big">...</div>
+so here <div> char will not be affected by the class=big in the text contents
+
+Child selector = every p element which is direct link of it's article will be affected with the contents
+
+article > p {
+    color: blue;
+}
+
+
+<article>...
+  <p>....</p>
+</article>
+This will be affected with the content
+
+<p>....</p>
+<article>...
+   <div><p>...</p></div>
+</article>
+This will not be affected as it is not a direct child of article, rather a direct child for div tag
+
+
+Descendant Selector :- Any article that is not a direct child of it's parent element
+
+that is at any level of the element.
+
+article p {
+    color: blue;
+}
+
+Combining Selector
+. Element with class selector (selector.class)
+. Child (direct) selector (slector > selector)
+. Descendant selector (selector slector)
+
+
+Pseudo-Class Selector :- 
+This is how you define this selector
+
+selector:pseudo-class {
+    ...
+}
+
+% osudo class selector we'll talk about
+1. ::link
+2. :visited
+3. :hover
+4. :active
+5. :nth-child(...)
+
+
