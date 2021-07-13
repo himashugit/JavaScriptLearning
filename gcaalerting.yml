@@ -80,10 +80,10 @@ prometheus:
           static_configs:
             - targets: ['127.0.0.1:9187']
       remote_write:
-      - url: https://prometheus-us-central1.grafana.net/api/prom/push
+      - url:
         basic_auth:
-          username: 17048
-          password: eyJrIjoiZmJjM2FhN2JhN2MxNDA2NjZlMGY0ZDBmY2I1NDM3YWI2MmZhNWRmZiIsIm4iOiJwb2NtYWxhdXphaS1wcm9tIiwiaWQiOjQyNjc5OH0=
+          username: 
+          password: 
 
     - name: process
       host_filter: false
@@ -163,10 +163,10 @@ integrations:
     filesystem_ignored_mount_points: <string> | false = "^/(dev|var/lib/docker/.+)($|/)"
     filesystem_ignored_fs_types: <string> | false = "^(autofs|binfmt_misc|bpf|cgroup2?|configfs|debugfs|devpts|devtmpfs|fusectl|hugetlbfs|iso9660|mqueue|nsfs|overlay|proc|procfs|pstore|rpc_pipefs|securityfs|selinuxfs|squashfs|sysfs|tracefs)$"
   prometheus_remote_write:
-   - url: https://prometheus-us-central1.grafana.net/api/prom/push
+   - url: 
      basic_auth:
-       username: 23260
-       password: eyJrIjoiZTI5OTdmZDZhOTliYjA2YzExMjljMzgxODg2M2FhZWNiMjAyNDNlYyIsIm4iOiJtYWxhdXphaXZtcG9jIiwiaWQiOjQyNjc5OH0=
+       username: 
+       password: 
                                                                                                                               
 
 
